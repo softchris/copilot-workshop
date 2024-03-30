@@ -184,3 +184,11 @@ You have a working solution in the same folder as this README.md file, see "spac
 - Watch mode, if you want to writ code and have it be rebuild, run tests etc: `npm run watch`
 
 Make sure to have installed Node.js and run `npm install` before running the commands.
+
+## Solution
+
+TODO
+
+## Challenge
+
+TODO

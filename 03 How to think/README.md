@@ -6,9 +6,9 @@ In this section, we will therefore improve our code gradually. We will start wit
 
 ## TASK, gradually improve the API
 
- show how to gradually improve something. Start with a simple API and gradually improve it.
+show how to gradually improve something. Start with a simple API and gradually improve it.
 
-1. Create the prompt "generate an express api with one route that returns a list of users" as a comment in the file [demo.js](./demo.js), you should see an outcome similar to:
+> PROMPT: "generate an express api with one route that returns a list of users" as a comment in the file [demo.js](./demo.js), you should see an outcome similar to:
 
     ```js
     // generate an express api with one route that returns a list of users
@@ -29,7 +29,10 @@ In this section, we will therefore improve our code gradually. We will start wit
     });
     ```
 
-1. Improve the code by typing the following prompt in the Chat window, "improve the code", you should see a response similar to:
+Improve the code by typing the following prompt in the Chat window,
+
+> PROMPT: "improve the code" 
+you should see a response similar to:
 
     ```js
     const express = require('express');
@@ -69,7 +72,12 @@ In this section, we will therefore improve our code gradually. We will start wit
     });
     ```
 
-1. Type the following prompt "how would you improve the code further", let's see what it says and what we can learn from it.
+Type the following prompt:
 
+> PROMPT: "how would you improve the code further", let's see what it says and what we can learn from it.
 
 > This is a great way to get ideas on what to do next. This shows how we gradually arrive at a better solution.
+
+## Solution
+
+TODO
