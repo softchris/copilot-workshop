@@ -37,7 +37,7 @@ In this section, we will cover different modalities and hot work with suggestion
 
 ## Supported programming languages
 
-This workshop is designed to work with `JavaScript` by default. Support is currently added for the following languages:
+This workshop is designed to work with `JavaScript` by default. Support is currently being added for the following languages:
 
 - Java
 - Python

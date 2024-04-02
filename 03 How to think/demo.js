@@ -10,18 +10,6 @@ let users = [
 ];
 
 app.get('/users', (req, res) => {
-    res.json(users);
-});
-
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
-});
-
-const express = require('express');
-
-const app = express();
-
-app.get('/users', (req, res) => {
     res.json([
         { name: 'Alice' },
         { name: 'Bob' },

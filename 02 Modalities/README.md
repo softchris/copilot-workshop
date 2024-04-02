@@ -1,3 +1,5 @@
+## Modalities
+
 In GitHub Copilot, you can work with different modalities to interact with the AI. The modalities are:
 
 - inline editing, which means you can edit the code directly in the editor and you will get suggestions based on the context. How these suggestions appear is either:
@@ -8,9 +10,9 @@ In GitHub Copilot, you can work with different modalities to interact with the A
 
 GitHub Copilot provides suggestions based on the context of the code you are writing. You can accept, reject, or suggest a new code snippet.
 
-- Accept, To accept a suggestion, you can press the TAB key or click on the suggestion.
-- Reject, To reject a suggestion, you can press the ESC key.
-- Partial accept, To accept a part of the suggestion, type the forward arrow key (→).
+- **Accept**, To accept a suggestion, you can press the TAB key or click on the suggestion.
+- **Reject**, To reject a suggestion, you can press the ESC key.
+- **Partial accept**, To accept a part of the suggestion, type the forward arrow key (→).
 
 ## DEMO
 

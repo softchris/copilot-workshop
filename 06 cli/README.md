@@ -187,10 +187,6 @@ Here's the commands:
 
 Make sure to have installed Node.js and run `npm install` before running the commands.
 
-## Challenge
-
-TODO
-
 ## Demo
 
 ![CLI demo](./copilot-cli-gif.gif)
