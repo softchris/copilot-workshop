@@ -24,17 +24,14 @@ To ensure you have a great time learning, this workshop has a narrative namely t
 
 ## Sections
 
-- **Setup and installation**, in this section, we will cover installations and setup of Copilot. [Go to section](./01%20Setup%20and%20installation/README.md)
-
-- **Modalities**
-In this section, we will cover different modalities and hot work with suggestions and how to accept/reject them. [Go to section](./02%20Modalities/README.md)  
-
-- **How to think** here we will describe how to think about the problem how to work with prompting and iterate on your solution. [Go to section](./03%20How%20to%20think/README.md)
-
-- **Green field**, in this section, we will describe how to start a new project and how your initial prompt can help you. [Go to section](./04%20Green%20field/README.md)
-- **Brown field**, in this section, we will describe how to work with existing codebase and how Copilot can help you improve it. [Go to section](./05%20Brown%20field/README.md)
-- **CLI**, in this section, we will describe how you can use Copilot from the command line and especially in the context of managing your projects. [Go to section](./06%20CLI/README.md)
-
+| Section | Description | Link |
+| --- | --- | --- |
+| Setup and installation | In this section, we will cover installations and setup of Copilot. | [Go to section](./01%20Setup%20and%20installation/README.md) |
+| Modalities | In this section, we will cover different modalities and hot work with suggestions and how to accept/reject them. | [Go to section](./02%20Modalities/README.md) |
+| How to think | Here we will describe how to think about the problem how to work with prompting and iterate on your solution. | [Go to section](./03%20How%20to%20think/README.md) |
+| Green field | In this section, we will describe how to start a new project and how your initial prompt can help you. | [Go to section](./04%20Green%20field/README.md) |
+| Brown field | In this section, we will describe how to work with existing codebase and how Copilot can help you improve it. | [Go to section](./05%20Brown%20field/README.md) |
+| CLI | In this section, we will describe how you can use Copilot from the command line and especially in the context of managing your projects. | [Go to section](./06%20CLI/README.md) |
 ## Supported programming languages
 
 This workshop is designed to work with `JavaScript` by default. Support is currently being added for the following languages:
