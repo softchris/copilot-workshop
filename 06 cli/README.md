@@ -17,7 +17,7 @@ Now of course, asking about the above you might get more than just the command b
 
 You've been running the game so far by calling `npx http-server .` in the terminal, which sets up a server for you to run the game.
 
-I'ts easy to forget the command, so we can ask our AI tool for how to run the game, or any project with a prompt like so:
+It's easy to forget the command, so we can ask our AI tool for how to run the game, or any project with a prompt like so:
 
 > PROMPT: "how do I run this project?"
 
@@ -176,7 +176,9 @@ This is a simplified example and doesn't include actual collision detection. You
 
 ## Solution
 
-You have a working solution in the same folder as this README.md file, see "space-game-v2" folder. Here's the commands:
+Solution can be found here [Space game v2 folder](./space-game-v2) folder.
+
+Here's the commands:
 
 - Run the game: `npm start`
 - Build the game: `npm run build`
@@ -185,10 +187,10 @@ You have a working solution in the same folder as this README.md file, see "spac
 
 Make sure to have installed Node.js and run `npm install` before running the commands.
 
-## Solution
-
-TODO
-
 ## Challenge
 
 TODO
+
+## Demo
+
+![CLI demo](./copilot-cli-gif.gif)

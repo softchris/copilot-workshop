@@ -100,7 +100,7 @@ let lastFire = Date.now();
 let fireDelay = 500;  // 0.5 seconds
 ```
 
-You might need to prompt a few times to ensure your code works correctly. Refer to [app-v1.js](app-v1.js) for the final code of this task
+You might need to prompt a few times to ensure your code works correctly. Refer to [app-v1.js](./javascript/app-v1.js) for the final code of this task
 
 1. Let's improve the code further, by typing the following prompt:
 
@@ -178,7 +178,7 @@ At this point, you can either copy in the gameLoop function from your existing c
 
 > PROMPT: "use above class and update the entire code file to use it"
 
-Final version of the code can be found in [app-v2.js](app-v2.js)
+Final version of the code can be found in [app-v2.js](./javascript/app-v2.js)
 
 ## TASK, add a new feature
 
@@ -327,7 +327,7 @@ const game = new Game();
 
 A great use case for brown field development is fixing bugs.
 
-We do have a bug in the game so far [app-v4.js](app-v4.js), the bug is that the game is not resetting properly after the game ends when the player collides with a meteor.
+We do have a bug in the game so far [app-v4.js](./javascript/app-v4.js), the bug is that the game is not resetting properly after the game ends when the player collides with a meteor.
 
 To fix, we can type a prompt like so:
 
@@ -443,7 +443,7 @@ TODO
 
 ## Solution
 
-You will find the solution is [solution.js](./solution.js)
+You will find the solution is [solution.js](./javascript/solution.js)
 
 ```bash
 npx http-server -p 5000
@@ -451,4 +451,4 @@ npx http-server -p 5000
 
 you should see something like so:
 
-![TODO](img)
+![Brownfield demo](./copilot-workshop-brownfield-gif.gif)
