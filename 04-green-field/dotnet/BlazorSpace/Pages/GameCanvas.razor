@@ -1,0 +1,51 @@
+@page "/game"
+@using Blazor.Extensions
+@using Blazor.Extensions.Canvas
+@using System.Timers;
+@inject IJSRuntime JSRuntime
+
+<BECanvas Width="800" Height="600" @ref="_canvasReference"></BECanvas>
+
+@code {
+    private BECanvasComponent _canvasReference;
+    private Game game;
+    private Timer _timer = new Timer(1000/60);
+
+    protected override async Task OnInitializedAsync()
+    {
+        var dotnetHelper = DotNetObjectReference.Create(this);
+        await JSRuntime.InvokeVoidAsync("keyboardInterop.addKeyDownListener", dotnetHelper);
+    } 
+
+    public void Dispose()
+    {
+        JSRuntime.InvokeVoidAsync("keyboardInterop.removeKeyDownListener");
+         this._timer.Dispose();
+    }   
+
+    [JSInvokableAttribute("OnKeyDown")]
+    public void OnKeyDown(string key)
+    {
+        game.OnKeyDown(key);   
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            game = new Game();
+            game.OnUpdate += StateHasChanged;
+            var context = await _canvasReference.CreateCanvas2DAsync();
+
+            await context.BeginBatchAsync();
+            this._timer.Elapsed += (sender, e) => InvokeAsync(() =>
+            {
+                game.Update();
+                game.Draw(context);
+                
+            });
+            this._timer.Start();
+        }
+    }
+}
+

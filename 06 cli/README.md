@@ -87,7 +87,7 @@ Now that we've set up our project, we can start adding features to our game. Thi
 
 The real win of using @workspace is that it looks on your whole solution when suggesting code instead of just your current file.
 
-> PROMPT: "@workspace, make it so the enemy fighers are firing a green laser at the player, for every laser that hits the player, the player should lose a life, players starts with 3 lifes. Laser image is called green-laser.png"
+> PROMPT: "@workspace, make it so the enemy fighters are firing a green laser at the player, for every laser that hits the player, the player should lose a life, players starts with 3 lives. Laser image is called green-laser.png"
 
 Let's show the entire Copilot response so you see how the code fits into the rest of the project:
 

@@ -2,7 +2,7 @@
 
 Green field is a term used to describe a new project that is being built from scratch. In this section, we will create a new project using GitHub Copilot.
 
-For a green field project to be successful, you need to have a clear understanding of the requirements and the scope of the project. 
+For a green field project to be successful, you need to have a clear understanding of the requirements and the scope of the project.
 
 Code should also be complete in the sense it should be able to run without any errors. Also it should be well documented and tested.
 
@@ -26,7 +26,7 @@ Here we will get the player to move on the screen.
 
 Type the following prompt:
 
-> PROMPT: "make the player move, it should use the keys w a s d to do so""
+> PROMPT: "make the player move, it should use the keys w a s d to do so"
 
 You should see a response similar to [app-v2.js](./javascript/app-v2.js)
 
