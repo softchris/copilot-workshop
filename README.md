@@ -47,3 +47,9 @@ To find a specific language, check for sub folders for each section being called
 To build a space game, you will need some assets. Each section has its own `assets` folder.
 
 If you want to improve the game, you can use the `assets` folder found in the [04 Green field assets](./04-green-field/assets/) section, as it contains a large variety of graphics and these exercises only implements a subset.
+
+## Train the trainer
+
+To conduct this workshop, you're encouraged to:
+
+- Deliver the [deck](./Copilot%20workshop,%201h.pptx). When you encounter demo sections, go to the corresponding section in this repo and type in the prompts in order in your Copilot Chat.
