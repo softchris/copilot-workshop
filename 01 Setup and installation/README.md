@@ -8,6 +8,4 @@
 
 - [Configuring extension](https://docs.github.com/en/enterprise-cloud@latest/copilot/quickstart#installing-the-github-copilot-extension-for-visual-studio-code)
 
-other info here around cost, etc
-
 [official docs](https://docs.github.com/en/enterprise-cloud@latest/copilot/quickstart)

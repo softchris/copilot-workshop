@@ -64,8 +64,7 @@ class Game {
     }
 
     loadAssets() {
-       
-
+    
         this.playerImg.onload = this.enemyImg.onload = this.laserImg.onload = () => {
             this.assetsLoaded++;
             if (this.assetsLoaded === 3) {
