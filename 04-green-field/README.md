@@ -18,7 +18,7 @@ Type the following prompt:
 
 > PROMPT: "build a space game that contains a ship you control, should be a green rectangle, and 3 enemy fighters placed at the top of the screen. The screen is 800x600 pixels and uses a canvas element"
 
-You should see a response similar to [index.html](index.html) and [](app-v1.js)
+You should see a response similar to [index.html](./javascript/index.html) and [app-v1.js](./javascript/app-v1.js)
 
 ### 2 - Make the player move
 
@@ -28,7 +28,7 @@ Type the following prompt:
 
 > PROMPT: "make the player move, it should use the keys w a s d to do so""
 
-You should see a response similar to [app-v2.js](app-v2.js)
+You should see a response similar to [app-v2.js](./javascript/app-v2.js)
 
 ### Add collision detection
 
@@ -38,7 +38,7 @@ Add the following prompt:
 
 > PROMPT: "How can I detect collisions between the player's ship and the enemy fighters in the space game?"
 
-You should see a response similar to [app-v3.js](app-v3.js)
+You should see a response similar to [app-v3.js](./javascript/app-v3.js)
 
 ### Add behavior on collision
 
@@ -48,7 +48,7 @@ Add the following prompt:
 
 > PROMPT: "destroy player and enemy fighter if they collide"
 
-You should see a response similar to [app-v4.js](app-v4.js)
+You should see a response similar to [app-v4.js](./javascript/app-v4.js)
 
 Customize the behavior further by instructing the AI to display game over message and restart the game.
 
@@ -56,7 +56,7 @@ Add the following prompt:
 
 > PROMPT: "if player and enemy collide, display a game over message and reset the game"
 
-You should see a response similar to [app-v5.js](app-v5.js)
+You should see a response similar to [app-v5.js](./javascript/app-v5.js)
 
 ### Add laser shooting to the player
 
@@ -68,7 +68,7 @@ Add the following prompt:
 
 > PROMPT: "when a player presses space, it should shoot a laser from the top of the ship at high speed, if laser collides with enemy ship then laser and enemy should be destroyed. Laser should also have a cooldown so it can only be fired every 0.5 second"
 
-You should see a response similar to [app-v6.js](app-v6.js)
+You should see a response similar to [app-v6.js](./javascript/app-v6.js)
 
 ### Add scoring
 
@@ -78,7 +78,7 @@ Add the following prompt:
 
 > PROMPT: "show score at the top right of the screen. It should add 50 points every time a laser destroys an enemy"
 
-you should see a response similar to [app-v7.js](app-v7.js)
+you should see a response similar to [app-v7.js](./javascript/app-v7.js)
 
 ### Add end condition for when all enemies are destroyed
 
@@ -88,7 +88,7 @@ Add the following prompt:
 
 > PROMPT: "I add end condition, when there are no more enemies, should show, a text that say you won.. if text is clicked then game should reset"
 
-you should see a response similar to [app-v8.js](app-v8.js)
+you should see a response similar to [app-v8.js](./javascript/app-v8.js)
 
 ### Add proper graphics
 
@@ -100,7 +100,7 @@ Add the following prompt:
 
 ## Solution
 
-You will find the solution is [solution.js](./solution.js)
+You will find the solution is [solution.js](./javascript/solution.js)
 
 Run the solution by typing the following command in the terminal:
 
@@ -110,4 +110,4 @@ npx http-server -p 5000
 
 you should see something like so:
 
-![TODO](img)
+![Solution demo](./copilot-workshop-greenfield-gif.gif)
